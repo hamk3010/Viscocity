@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hfad.viscosity.TopLevelActivity">
+
+    <ImageView
+        android:src="@mipmap/logo"
+        android:contentDescription="@string/Viscosity_Logo"
+        android:id="@+id/Viscosity_Logo"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/Capture_button"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/textView3" />
+
+    <Button
+        android:text="        Capture    "
+        android:id="@+id/Capture_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="captureClicked"
+        android:layout_alignEnd="@+id/button"
+        android:layout_above="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="        History     "
+        android:id="@+id/button"
+        android:onClick="historyClicked"
+        android:layout_above="@+id/button2"
+        android:layout_alignStart="@+id/button3"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n \n Process \nnew fluid \ndata \n  \n"
+        android:id="@+id/button2"
+        android:onClick="loadClicked"
+        android:layout_above="@+id/button3"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="         EXIT          "
+        android:id="@+id/button3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="By: University of California, Los Angeles &amp; University of Glasgow"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hfad.viscosity.Data">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_drawable"
+        android:padding="5dp" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/P"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:text="@string/power"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/F"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:text="@string/freq"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/Temp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:text="@string/temp"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power1"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq1"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp1"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power2"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq2"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp2"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power3"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq3"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp3"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power4"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq4"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp4"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power5"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq5"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp5"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power6"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq6"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp6"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power7"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq7"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp7"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power8"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq8"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp8"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power9"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq9"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp9"
+                android:layout_column="13"
+                android:inputType="phone"
+                android:imeOptions="actionNext"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Power10"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Freq10"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/my_drawable"
+                android:gravity="center"
+                android:padding="15dip"
+                android:id="@+id/Temp10"
+                android:inputType="phone"
+                android:textColor="@color/black"/>
+
+
+        </TableRow>
+
+
+            <Button
+                    android:text="Clear"
+                    android:id="@+id/cancel_button"
+                    android:layout_column="49"
+                    android:onClick="clearData"
+                    android:backgroundTint="@color/cancelColor"
+                />
+
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Process"
+                    android:id="@+id/process_button"
+                    android:layout_column="27"
+                    android:backgroundTint="@color/addColor"
+                    android:onClick="processData"
+                />
+
+
+
+    </TableLayout>
+</ScrollView>

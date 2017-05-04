@@ -1,0 +1,106 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/relativeLayout"
+    tools:context="com.hfad.viscosity.Measurements"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experiment 1"
+        android:id="@+id/exp1"
+        android:onClick="experiment1Clicked"
+        android:layout_below="@+id/update"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pencil"
+        android:id="@+id/edit1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@+id/exp1"
+        android:layout_toRightOf="@id/exp1"
+        android:layout_alignTop="@+id/exp1"
+        android:onClick="edit1Clicked"/>
+
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Process"
+        android:id="@+id/measurement_process_button"
+        android:backgroundTint="@color/addColor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:onClick="processVideos"/>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pencil"
+        android:id="@+id/edit2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@+id/exp2"
+        android:layout_toRightOf="@id/exp2"
+        android:layout_alignTop="@+id/exp2"
+        android:onClick="edit2Clicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experiment 2"
+        android:id="@+id/exp2"
+        android:onClick="experiment2Clicked"
+        android:layout_below="@+id/exp1"
+        android:layout_alignStart="@+id/exp1"
+        android:layout_marginTop="42dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experiment 3"
+        android:id="@+id/exp3"
+        android:onClick="experiment3Clicked"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/exp2"
+        android:layout_alignStart="@+id/exp2" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pencil"
+        android:id="@+id/edit3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignBottom="@+id/exp3"
+        android:layout_toRightOf="@id/exp3"
+        android:layout_alignTop="@+id/exp3"
+        android:onClick="edit3Clicked"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/update"
+        android:layout_alignEnd="@+id/measurement_process_button"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:maxLines="2"
+        android:scrollbars="vertical"/>
+
+
+</RelativeLayout>
